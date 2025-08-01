@@ -1,8 +1,8 @@
 # 🧙‍♂️ Victor R. Tabuni | Level 10 Coder
 
 > 🎯 Quest: Master the Art of Software Engineering  
-> 🏫 Class: Junior @ Western Michigan University  
-> 🛡️ Special Skills: Python, JavaScript, Django, SQL  
+> 🏫 Class: Senior @ Western Michigan University  
+> 🛡️ Special Skills: Python, JavaScript, Java, Django, SQL 
 > 🧠 Focus: Cloud Computing | Game Dev | Web Dev  
 > 🎮 Current Mission: Jr. SDE Program @ Amazon NYC  
 
@@ -27,6 +27,13 @@
 - 🌟 Contributed to a Scholarship-wide students website
 
 ---
+
+
+## Projects (On-going)
+- [Gameset]([https://link-to-your-project.com](https://github.com/rfldn0/gameset))
+- 
+- 
+
 
 ## 🎒 Inventory
 
