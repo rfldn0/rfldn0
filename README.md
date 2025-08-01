@@ -10,13 +10,23 @@
 
 ## 🧪 Stats
 
-| Attribute       | Level |
-|----------------|-------|
-| 💻 Coding       | 85    |
-| 📊 Data Analysis | 78    |
-| ☁️ Cloud        | 70    |
-| 🎨 Frontend     | 65    |
-| 🔐 Security     | 50    |
+![Skill Chart](https://quickchart.io/chart?c={
+  type:'bar',
+  data:{
+    labels:['💻 Coding','📊 Data Analysis','☁️ Cloud','🎨 Frontend','🔐 Security'],
+    datasets:[{
+      label:'Skill Level',
+      data:[85,75,70,62,50],
+      backgroundColor:['#4caf50','#2196f3','#00bcd4','#ff9800','#9c27b0']
+    }]
+  },
+  options:{
+    scales:{y:{beginAtZero:true,max:100}},
+    plugins:{legend:{display:false}},
+    title:{display:true,text:'🧪 Skill Levels'}
+  }
+})
+
 
 ---
 
