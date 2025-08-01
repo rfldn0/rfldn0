@@ -1,4 +1,4 @@
-# 🧙‍♂️ Victor R. Tabuni | Level 21 Coder
+# 🧙‍♂️ Victor R. Tabuni | Level 10 Coder
 
 > 🎯 Quest: Master the Art of Software Engineering  
 > 🏫 Class: Junior @ Western Michigan University  
@@ -14,7 +14,7 @@
 |----------------|-------|
 | 💻 Coding       | 85    |
 | 📊 Data Analysis | 78    |
-| ☁️ Cloud        | 72    |
+| ☁️ Cloud        | 70    |
 | 🎨 Frontend     | 65    |
 | 🔐 Security     | 50    |
 
@@ -24,7 +24,7 @@
 
 - 🥇 Built a Game Recommender Website
 - 🧰 Contributed to Open Source Projects
-- 🌐 Deployed Projects with Django & APIs
+- 🌟 Contributed to a Scholarship-wide students website
 
 ---
 
