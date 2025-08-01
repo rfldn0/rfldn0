@@ -10,7 +10,7 @@
 
 ## 🧪 Stats
 
-![Skill Chart](https://quickchart.io/chart?c={
+![Skill Chart](https://quickchart.io/chart-maker/view/zm-187f38b1-23d8-4e96-9982-1ec500e81ca8{
   type:'bar',
   data:{
     labels:['💻 Coding','📊 Data Analysis','☁️ Cloud','🎨 Frontend','🔐 Security'],
