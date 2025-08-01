@@ -35,4 +35,3 @@ This project is part of my personal portfolio as a Computer Information Systems 
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=rfldn0&show_icons=true&locale=en" alt="rfldn0" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rfldn0&" alt="rfldn0" /></p>
