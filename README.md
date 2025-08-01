@@ -1,37 +1,77 @@
-<h3 align="center"## 📌 Project Overview
+<h2 align="center">🧙‍♂️ Victor R. Tabuni — The Code Adventurer</h2>
 
-This project is part of my personal portfolio as a Computer Information Systems student. It showcases my skills in web development, data handling, and software design. The goal is to demonstrate real-world application of my coursework and independent learning through a functional and well-documented solution.
-</h3>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rfldn0&label=Profile%20views&color=0e75b6&style=flat" alt="rfldn0" /> </p>
-
-- 🔭 I’m currently working on my [Game recommendation website](https://github.com/rfldn0/gameset)
-
-- 🌱 I’m currently learning **Django, Reacj.Js, and SpringBoot**
-
-- 👯 I’m looking to collaborate on [The creation of the apis systems database for gameset](https://github.com/rfldn0/gameset)
-
-- 🤝 I’m looking for help with [Gameset](https://github.com/rfldn0/gameset)
-
-- 👨‍💻 All of my projects are available at [Coming soon](Coming soon)
-
-- 💬 Ask me about **Django, Sql**
-
-- 📫 How to reach me **tabunivictor58@gmail.com**
-
-- ⚡ Fun fact **I can make a saxophone sound through my mouth.**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/rfldno" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="rfldno" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/victor-tabuni" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="victor-tabuni" height="30" width="40" /></a>
-<a href="https://instagram.com/rfldno" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rfldno" height="30" width="40" /></a>
+<p align="center">
+⚔️ Level 3 CIS Student | 🧩 Full-Stack Explorer | 🧠 Seeker of Knowledge  
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> </p>
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=rfldn0&label=Profile%20views&color=0e75b6&style=flat" alt="rfldn0" />
+</p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rfldn0&show_icons=true&locale=en&layout=compact" alt="rfldn0" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=rfldn0&show_icons=true&locale=en" alt="rfldn0" /></p>
+### 📜 Quest Log (Project Overview)
 
+This is part of my personal portfolio as a Computer Information Systems student. It chronicles my adventures through code — from building immersive web apps to battling bugs in the wild. Each line of code is a spell, each app a crafted artifact.
+
+---
+
+### 🔨 Current Mission
+
+- 🔭 Crafting the [**GameSet**](https://github.com/rfldn0/gameset) — a game recommendation website forged with Django and magic.
+- 👯 Recruiting allies for API system & database development. Join the guild: [GameSet](https://github.com/rfldn0/gameset).
+- 🌱 Studying ancient tomes of **Django**, **React.js**, and **Spring Boot**.
+
+---
+
+### 💬 Scroll of Contact
+
+- 📫 Reach me via enchanted scroll: **tabunivictor58@gmail.com**
+- 🧙 Ask me about: `Django`, `SQL`, or summoning saxophone sounds with my mouth (⚡ fun fact).
+
+---
+
+### 🌐 Guild Connections
+
+<a href="https://twitter.com/rfldno" target="blank">
+  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" height="30" width="40" />
+</a>
+<a href="https://linkedin.com/in/victor-tabuni" target="blank">
+  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" />
+</a>
+<a href="https://instagram.com/rfldno" target="blank">
+  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="30" width="40" />
+</a>
+
+---
+
+### 🧰 Inventory (Skills & Tools)
+
+<p align="left">
+  <img src="https://cdn.worldvectorlogo.com/logos/django.svg" title="Django" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" title="Python" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="JavaScript" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" title="Java" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" title="HTML5" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" title="CSS3" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" title="PostgreSQL" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" title="MongoDB" width="40" />
+  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" title="Postman" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" title="Git" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" title="Linux" width="40" />
+  <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" title="Unity" width="40" />
+  <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" title="Blender" width="40" />
+</p>
+
+---
+
+### 📊 Hero Stats
+
+<p>
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rfldn0&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
+</p>
+
+<p>
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=rfldn0&show_icons=true&locale=en" alt="GitHub Stats" />
+</p>
