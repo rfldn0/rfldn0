@@ -68,10 +68,12 @@ This is part of my personal portfolio as a Computer Information Systems student.
 
 ### 📊 Hero Stats
 
-<p>
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rfldn0&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rfldn0&layout=compact&hide_border=true&bg_color=00000000&text_color=ffffff" alt="Top Languages" />
 </p>
 
-<p>
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=rfldn0&show_icons=true&locale=en" alt="GitHub Stats" />
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rfldn0&show_icons=true&hide_border=true&bg_color=00000000&text_color=ffffff" alt="GitHub Stats" />
 </p>
+
