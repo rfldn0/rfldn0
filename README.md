@@ -65,20 +65,19 @@ This is part of my personal portfolio as a Computer Information Systems student.
 </p>
 
 ---
-undefined
 
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
-
-  <div style="flex: 1; text-align: left;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+  
+  <div style="text-align: left;">
     <h4>📖 Most Used Languages</h4>
     <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rfldn0&layout=compact&hide_border=true&bg_color=00000000&text_color=ffffff" alt="Top Languages" />
   </div>
-
-  <div style="flex: 1; text-align: right;">
+  
+  <div style="text-align: right;">
     <h4>💾 Victor Tabuni's GitHub Stats</h4>
     <img src="https://github-readme-stats.vercel.app/api?username=rfldn0&show_icons=true&hide_border=true&bg_color=00000000&text_color=ffffff" alt="GitHub Stats" />
   </div>
-
+  
 </div>
 
 
