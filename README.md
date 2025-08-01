@@ -66,7 +66,6 @@ This is part of my personal portfolio as a Computer Information Systems student.
 
 ---
 
-### 📊 Statistics
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
   
