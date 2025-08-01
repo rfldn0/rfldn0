@@ -68,12 +68,18 @@ This is part of my personal portfolio as a Computer Information Systems student.
 
 ### 📊 Hero Stats
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rfldn0&layout=compact&hide_border=true&bg_color=00000000&text_color=ffffff" alt="Top Languages" />
-</p>
+<div style="display: flex; gap: 40px; align-items: flex-start;">
 
+  <div>
+    <h3>📊 Most Used Languages</h3>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rfldn0&layout=compact&hide_border=true&bg_color=00000000&text_color=ffffff" alt="Top Languages" />
+  </div>
 
-<p align="right">
-  <img src="https://github-readme-stats.vercel.app/api?username=rfldn0&show_icons=true&hide_border=true&bg_color=00000000&text_color=ffffff" alt="GitHub Stats" />
-</p>
+  <div>
+    <h3>📈 Victor Tabuni's GitHub Stats</h3>
+    <img src="https://github-readme-stats.vercel.app/api?username=rfldn0&show_icons=true&hide_border=true&bg_color=00000000&text_color=ffffff" alt="GitHub Stats" />
+  </div>
+
+</div>
+
 
