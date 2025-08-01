@@ -73,7 +73,7 @@ This is part of my personal portfolio as a Computer Information Systems student.
 </p>
 
 
-<p align="center">
+<p align="right">
   <img src="https://github-readme-stats.vercel.app/api?username=rfldn0&show_icons=true&hide_border=true&bg_color=00000000&text_color=ffffff" alt="GitHub Stats" />
 </p>
 
