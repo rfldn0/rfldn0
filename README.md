@@ -3,7 +3,7 @@
 > 🎯 Quest: Master the Art of Software Engineering  
 > 🏫 Class: Senior @ Western Michigan University  
 > 🛡️ Special Skills: Python, JavaScript, Java, Django, SQL
-> ---
+> 
 > 🧠 Focus: Cloud Computing | Game Dev | Web Dev  
 > 🎮 Current Mission: Jr. SDE Program @ Amazon NYC  
 
