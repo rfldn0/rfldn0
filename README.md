@@ -33,13 +33,13 @@ This is part of my personal portfolio as a Computer Information Systems student.
 
 ### 🌐 Guild Connections
 
-<a href="https://twitter.com/rfldno" target="blank">
+<a href="https://x.com/rfldno?s=21" target="blank">
   <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" height="30" width="40" />
 </a>
-<a href="https://linkedin.com/in/victor-tabuni" target="blank">
+<a href="https://www.linkedin.com/in/victor-rifaldino-tabuni-14856628b/" target="blank">
   <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" />
 </a>
-<a href="https://instagram.com/rfldno" target="blank">
+<a href="https://www.instagram.com/rfldno_/" target="blank">
   <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="30" width="40" />
 </a>
 
