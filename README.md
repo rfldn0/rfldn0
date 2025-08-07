@@ -73,11 +73,6 @@ This is part of my personal portfolio as a Computer Information Systems student.
     <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rfldn0&layout=compact&hide_border=true&bg_color=00000000&text_color=ffffff" alt="Top Languages" />
   </div>
   
-  <div style="text-align: right;">
-    <h4>💾 Victor Tabuni's GitHub Stats</h4>
-    <img src="https://github-readme-stats.vercel.app/api?username=rfldn0&show_icons=true&hide_border=true&bg_color=00000000&text_color=fffffff" alt="GitHub Stats" />
-  </div>
-  
 </div>
 
 
