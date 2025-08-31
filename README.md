@@ -20,16 +20,16 @@
 
 <div style = "display: flex;">
   <div style ="flex: 1;">
-  <a href="https://www.instagram.com/rfldno_/">
+  <a href="https://www.instagram.com/rfldno_/" target="_blank">
      <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/>
   </a>
-  <a href="https://x.com/rfldno?s=21">
+  <a href="https://x.com/rfldno?s=21" target="_blank">
      <img src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white"/>
   </a>
-  <a href="https://www.linkedin.com/in/victor-rifaldino-tabuni-14856628b/">
+  <a href="https://www.linkedin.com/in/victor-rifaldino-tabuni-14856628b/" target="_blank">
      <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://www.tiktok.com/@rfldno_">
+  <a href="https://www.tiktok.com/@rfldno_" target ="_blank">
      <img src="https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=TikTok&logoColor=white"/>
   </a>
   </div>
