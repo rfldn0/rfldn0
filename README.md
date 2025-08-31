@@ -30,10 +30,6 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/rfldn0/rfldn0/output/snake.svg" alt="Snake animation" />
-
-###
-
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" height="40" alt="blender logo"  />
   <img width="12" />
@@ -43,5 +39,9 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" height="40" alt="unity logo"  />
 </div>
+
+###
+
+<img src="https://raw.githubusercontent.com/rfldn0/rfldn0/output/snake.svg" alt="Snake animation" />
 
 ###
