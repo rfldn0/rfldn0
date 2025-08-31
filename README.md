@@ -16,6 +16,8 @@
   </div>
 </div>
 
+![](https://komarev.com/ghpvc/?username=your-github-username&style=for-the-badge&color=blue&abbreviated=true&)
+
 ### Socials
 
 <div style = "display: flex;">
