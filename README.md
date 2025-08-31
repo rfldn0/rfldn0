@@ -36,13 +36,10 @@
 </div>
 
 ###
-
-##### Badges Reference [Click Here](https://github.com/alexandresanlim/Badges4-README.md-Profile#-social-).
  
+<img style = "float: left; " src="https://raw.githubusercontent.com/rfldn0/rfldn0/output/snake.svg" alt="Snake animation" />
 
 ###
 
-
-<img style = "float: left; " src="https://raw.githubusercontent.com/rfldn0/rfldn0/output/snake.svg" alt="Snake animation" />
-
+##### Badges: [Click Here](https://github.com/alexandresanlim/Badges4-README.md-Profile#-social-).
 
