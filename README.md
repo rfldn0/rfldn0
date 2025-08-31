@@ -34,9 +34,8 @@
   </a>
   </div>
 </div>
----
 
-###
+---
  
 <img style = "float: left; " src="https://raw.githubusercontent.com/rfldn0/rfldn0/output/snake.svg" alt="Snake animation" />
 
