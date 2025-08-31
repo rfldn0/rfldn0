@@ -1,78 +1,47 @@
-<h2 align="center">🧙‍♂️ Victor R. Tabuni — The Code Adventurer</h2>
+<h1 align="left">About Me</h1>
 
-<p align="center">
-⚔️ Level 3 CIS Student | 🧩 Full-Stack Explorer | 🧠 Seeker of Knowledge  
-</p>
+###
 
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=rfldn0&label=Profile%20views&color=0e75b6&style=flat" alt="rfldn0" />
-</p>
+<p align="left">Hi, I am Victor Tabuni. I like to code. I am currently invested in GUI and Simulations. I am learning procedural animation and how I can implement a quest system in everyday life through code. I know it is not consistent with my LinkedIn About Me ://</p>
 
----
+###
 
-### 📜 Quest Log (Project Overview)
-
-This is part of my personal portfolio as a Computer Information Systems student. It chronicles my adventures through code — from building immersive web apps to battling bugs in the wild. Each line of code is a spell, each app a crafted artifact.
-
----
-
-### 🔨 Current Mission
-
-- 🔭 Crafting the [**GameSet**](https://github.com/rfldn0/gameset) — a game recommendation website forged with Django and magic.
-- 👯 Recruiting allies for API system & database development. Join the guild: [GameSet](https://github.com/rfldn0/gameset).
-- 🌱 Studying ancient tomes of **Django**, **React.js**, and **Spring Boot**.
-
----
-
-### 💬 Scroll of Contact
-
-- 📫 Reach me via enchanted scroll: **tabunivictor58@gmail.com**
-- 🧙 Ask me about: `Django`, `SQL`, or summoning saxophone sounds with my mouth (⚡ fun fact).
-
----
-
-### 🌐 Guild Connections
-
-<a href="https://x.com/rfldno?s=21" target="blank">
-  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" height="30" width="40" />
-</a>
-<a href="https://www.linkedin.com/in/victor-rifaldino-tabuni-14856628b/" target="blank">
-  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" />
-</a>
-<a href="https://www.instagram.com/rfldno_/" target="blank">
-  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="30" width="40" />
-</a>
-
----
-
-### 🧰 Inventory (Skills & Tools)
-
-<p align="left">
-  <img src="https://cdn.worldvectorlogo.com/logos/django.svg" title="Django" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" title="Python" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="JavaScript" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" title="Java" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" title="HTML5" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" title="CSS3" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" title="PostgreSQL" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" title="MongoDB" width="40" />
-  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" title="Postman" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" title="Git" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" title="Linux" width="40" />
-  <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" title="Unity" width="40" />
-  <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" title="Blender" width="40" />
-</p>
-
----
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-  
-  <div style="text-align: left;">
-    <h4>📖 Most Used Languages</h4>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rfldn0&layout=compact&hide_border=true&bg_color=00000000&text_color=ffffff" alt="Top Languages" />
-  </div>
-  
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rfldn0&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=true&order=2" height="150" alt="languages graph"  />
 </div>
 
+###
 
+<h1 align="left">Contact and Tech</h1>
+
+###
+
+<div align="left">
+  <a href="https://www.linkedin.com/in/victor-rifaldino-tabuni-14856628b/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  </a>
+  <a href="https://x.com/rfldno?s=21" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
+  </a>
+  <a href="https://www.instagram.com/rfldno_/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
+  </a>
+</div>
+
+###
+
+<img src="https://raw.githubusercontent.com/rfldn0/rfldn0/output/snake.svg" alt="Snake animation" />
+
+###
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" height="40" alt="blender logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="40" alt="django logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" height="40" alt="unity logo"  />
+</div>
+
+###
