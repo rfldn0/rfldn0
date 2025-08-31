@@ -1,4 +1,4 @@
-<h1 align="left">About Me</h1>
+<h3 align="left">About Me</h3>
 
 ###
 
@@ -12,7 +12,7 @@
 
 ###
 
-<h1 align="left">Contact and Tech</h1>
+<h3 align="left">Contact and Tech</h3>
 
 ###
 
