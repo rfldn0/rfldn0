@@ -1,10 +1,6 @@
-<h3 align="left">About Me</h3>
-
-###
+![Victor Tabuni](./img/github-header-banner.png)
 
 <p align="left">Hi, I am Victor Tabuni. I like to code. I am currently invested in GUI and Simulations. I am learning procedural animation and how I can implement a quest system in everyday life through code. I know it is not consistent with my LinkedIn About Me ://</p>
-
-###
 
 <div align="left">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rfldn0&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=true&order=2" height="150" alt="languages graph"  />
@@ -12,7 +8,7 @@
 
 ###
 
-<h3 align="left">Contact and Tech</h3>
+### Contact and Tech
 
 ###
 
