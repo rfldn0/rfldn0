@@ -1,5 +1,3 @@
-![Victor Tabuni](./img/github-header-banner.png)
-
 
 ```
 Hi, I am Victor Tabuni. I like to code. I am currently invested in GUI and Simulations. 
