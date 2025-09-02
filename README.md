@@ -4,7 +4,7 @@ Hi, I am Victor Tabuni. I like to code. I am currently invested in GUI and Simul
 I am learning procedural animation and how I can implement a quest system in everyday life through code. 
 I know it is not consistent with my LinkedIn About Me ://
 
-"May the force be with You" - Yoda
+"May the force be with You" 
 
 ```
 ![](https://komarev.com/ghpvc/?username=rfldn0&style=for-the-badge&color=blue&abbreviated=true&)
