@@ -10,12 +10,11 @@ I know it is not consistent with my LinkedIn About Me ://
 ![](https://komarev.com/ghpvc/?username=rfldn0&style=for-the-badge&color=blue&abbreviated=true&)
 
 <p align="center">
-  <img src="https://img.icons8.com/?size=100&id=59723&format=png" width="50" style="color: white;"/>
-  &nbsp;&nbsp;
+  🌆🌳🚦 &nbsp;&nbsp;
   <img src="img/Car Pixel Art GIF by Raw Fury.gif" alt="Car Pixel Art GIF">
-  &nbsp;&nbsp;
-  <img src="https://img.icons8.com/?size=100&id=11190&format=png" width="50" style="color:white;"/>
+  &nbsp;&nbsp; 🚦🌳🌆
 </p>
+
 
 
 ### Techies
