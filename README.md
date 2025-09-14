@@ -1,3 +1,9 @@
+<p align="center">
+  ===================================== WELCOME ================================== &nbsp;&nbsp;
+  <img src="img/Car Pixel Art GIF by Raw Fury.gif" alt="Car Pixel Art GIF">
+  &nbsp;&nbsp; ================================================================================
+</p>
+
 
 ```
 Hi, I am Victor Tabuni. I like to code. I am currently invested in GUI and Simulations. 
@@ -9,11 +15,6 @@ I know it is not consistent with my LinkedIn About Me ://
 ```
 ![](https://komarev.com/ghpvc/?username=rfldn0&style=for-the-badge&color=blue&abbreviated=true&)
 
-<p align="center">
-  ===================================== WELCOME ================================== &nbsp;&nbsp;
-  <img src="img/Car Pixel Art GIF by Raw Fury.gif" alt="Car Pixel Art GIF">
-  &nbsp;&nbsp; ================================================================================
-</p>
 
 
 
