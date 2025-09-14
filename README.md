@@ -9,7 +9,7 @@ I know it is not consistent with my LinkedIn About Me ://
 ```
 ![](https://komarev.com/ghpvc/?username=rfldn0&style=for-the-badge&color=blue&abbreviated=true&)
 
-![alt text](https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3NDg2MWNjbnMzeXJvOGE3eThjd3FpY3NoaGZqano0bDhybmRzbWZobCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/j3OL6mSc2FeV0UHMDg/giphy.gif)
+![alt text](<img/Car Pixel Art GIF by Raw Fury.gif>)
 ### Techies
 <div style = "display: flex;">
   <div style ="flex: 1;">
