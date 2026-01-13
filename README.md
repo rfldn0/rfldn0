@@ -1,6 +1,6 @@
 <p align="center">
   ===================================== WELCOME ================================== &nbsp;&nbsp;
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWp6M3J5eW83aHE2cnNlMGp0NTZtNWg0OTFkNWJlb3Qxa2xpZjlydSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/QBvHYx6taXPwCHqTRR/giphy.gif" alt="Car Pixel Art GIF">
+  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cmhvejZnMHd5enN5aXBobm51a216dzhjcjZ1MDlzZTVnd3Q3emo3NSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ksD3qCqrRiUfYfiDfo/giphy.gif" alt="Car Pixel Art GIF">
   &nbsp;&nbsp; ================================================================================
 </p>
 
