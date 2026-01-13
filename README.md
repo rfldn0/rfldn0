@@ -1,6 +1,6 @@
 <p align="center">
   ===================================== WELCOME ================================== &nbsp;&nbsp;
-  <img src="img/Car Pixel Art GIF by Raw Fury.gif" alt="Car Pixel Art GIF">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGh2czRsbXdzeHBlNmJla2txZXF6ZHBjN2V5YmlqMXM4cWt3YWZnbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3ohuAxV0DfcLTxVh6w/giphy.gif" alt="Car Pixel Art GIF">
   &nbsp;&nbsp; ================================================================================
 </p>
 
