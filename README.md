@@ -5,9 +5,7 @@
 </p>
 
 ```
-Hi, I am Victor Tabuni. I like to code. I am currently invested in GUI and Simulations. 
-I am learning procedural animation and how I can implement a quest system in everyday life through code. 
-I know it is not consistent with my LinkedIn About Me ://
+Plateau, still thinking and expand, back to basic is needed.
 
 "May the force be with You" 
 
