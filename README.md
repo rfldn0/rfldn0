@@ -5,7 +5,7 @@
 </p>
 
 ```
-Plateau, still thinking and expand, back to basic is needed.
+Plateau, still thinking and expanding, back to basic is needed.
 
 "May the force be with You" 
 
