@@ -5,9 +5,9 @@
 </p>
 
 ```
-Plateau, still thinking and expanding, back to basic is needed.
+Plateau, still thinking and expanding, back to basics.
 
-"May the force be with You" 
+"May the force be with you." 
 
 ```
 ![](https://komarev.com/ghpvc/?username=rfldn0&style=for-the-badge&color=blue&abbreviated=true&)
