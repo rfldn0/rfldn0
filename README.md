@@ -6,6 +6,7 @@
 
 ```
 Plateau, still thinking and expanding, back to basics.
+Pixel art enthusiast, star wars, sci-fi, and builder. 
 
 "May the force be with you." 
 
