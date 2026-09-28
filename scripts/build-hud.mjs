@@ -8,6 +8,16 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 const OUT = new URL('../img/hud/', import.meta.url);
 const W = 860;
 const INK = '#232323', MUTED = '#5d5b55', FAINT = '#7a776f', GOLD = '#f2c230', SCREEN = '#1d1d1f', PAPER = '#fbf9f3', TAB = '#f7f4ec';
+const SHADOW = '#222222', CARD = '#ffffff', AVATAR_BG = '#f1eee5';
+// Night mode: each light color above is swapped for its night color when the OS is in dark mode.
+// The swap matches on the exact fill/stroke attribute value, so SHADOW is kept distinct from INK
+// (text and borders turn light at night, hard shadows turn dim grey so they still show on a dark page).
+const NIGHT = {
+  [INK]: '#ecebe4', [SHADOW]: '#4a4841', [MUTED]: '#aeaba1', [FAINT]: '#8f8c83',
+  [PAPER]: '#24231f', [TAB]: '#1e1d1a', [CARD]: '#2c2b27', [AVATAR_BG]: '#35342f', [SCREEN]: '#141415',
+};
+const nightCss = `@media (prefers-color-scheme:dark){` +
+  Object.entries(NIGHT).map(([l, d]) => `[fill="${l}"]{fill:${d}}[stroke="${l}"]{stroke:${d}}`).join('') + `}`;
 
 const FONTS = {
   silk700: 'https://fonts.gstatic.com/s/silkscreen/v6/m8JUjfVPf62XiF7kO-i9aAhAfmyi2A.woff2',
@@ -48,7 +58,7 @@ function svg(w, h, body, { fonts, css = '' }) {
   const base = `.px{font-family:Silk,monospace;font-weight:700}.mono{font-family:Mono,monospace}` +
     `@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}.blink{animation:blink 1.1s steps(1) infinite}`;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">` +
-    `<style>${faces}${base}${css}</style>${body}</svg>\n`;
+    `<style>${faces}${base}${nightCss}${css}</style>${body}</svg>\n`;
 }
 
 // Pixel glyphs drawn as shapes so they don't depend on fallback fonts.
@@ -60,7 +70,7 @@ const arrowDown = (x, y, c) => `<path fill="${c}" d="M${x} ${y}h10v2h-2v2h-2v2h-
 // Silkscreen run to a known width so the chip can be sized without font metrics.
 function chip(x, y, text, { fill = PAPER, color = INK, fs = 13, extra = '' } = {}) {
   const tw = Math.round(text.length * fs * 0.82), w = tw + 24, h = fs + 16;
-  return `<rect x="${x + 3}" y="${y + 3}" width="${w}" height="${h}" rx="3" fill="${INK}"/>` +
+  return `<rect x="${x + 3}" y="${y + 3}" width="${w}" height="${h}" rx="3" fill="${SHADOW}"/>` +
     `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="3" fill="${fill}" stroke="${INK}" stroke-width="2"/>` +
     `<text x="${x + 12}" y="${y + h / 2 + fs * 0.42}" class="px ${extra}" font-size="${fs}" fill="${color}" textLength="${tw}" lengthAdjust="spacingAndGlyphs">${esc(text)}</text>`;
 }
@@ -83,7 +93,7 @@ function hero({ fonts, car }) {
     `<rect x="17" y="15" width="10" height="10" fill="${INK}"/>` +
     `<text x="37" y="24" class="mono" font-size="12" font-weight="500" fill="${INK}">rfldn0 / README.md</text>` +
     // card + hard shadow
-    `<rect x="7" y="${cardY + 6}" width="${W - 12}" height="${H - cardY - 10}" rx="6" fill="${INK}"/>` +
+    `<rect x="7" y="${cardY + 6}" width="${W - 12}" height="${H - cardY - 10}" rx="6" fill="${SHADOW}"/>` +
     `<rect x="1" y="${cardY}" width="${W - 12}" height="${H - cardY - 10}" rx="6" fill="${PAPER}" stroke="${INK}" stroke-width="2"/>` +
     // screen
     `<g clip-path="url(#panel)"><rect x="${px}" y="${py}" width="${pw}" height="${panelH}" fill="${SCREEN}"/>` +
@@ -108,9 +118,9 @@ function player({ fonts, avatar }) {
     (value ? `<text x="${vx}" y="${y}" class="mono" font-size="13" fill="${INK}">${esc(value)}</text>` : '');
   const body =
     `<defs><clipPath id="av"><rect x="19" y="19" width="${a}" height="${a}" rx="4"/></clipPath></defs>` +
-    `<rect x="5" y="5" width="${bw}" height="${bh}" rx="6" fill="${INK}"/>` +
-    `<rect x="1" y="1" width="${bw}" height="${bh}" rx="6" fill="#fff" stroke="${INK}" stroke-width="2"/>` +
-    `<rect x="19" y="19" width="${a}" height="${a}" fill="#f1eee5"/>` +
+    `<rect x="5" y="5" width="${bw}" height="${bh}" rx="6" fill="${SHADOW}"/>` +
+    `<rect x="1" y="1" width="${bw}" height="${bh}" rx="6" fill="${CARD}" stroke="${INK}" stroke-width="2"/>` +
+    `<rect x="19" y="19" width="${a}" height="${a}" fill="${AVATAR_BG}"/>` +
     `<image href="${avatar}" x="19" y="19" width="${a}" height="${a}" clip-path="url(#av)" preserveAspectRatio="xMidYMid slice" style="image-rendering:pixelated"/>` +
     `<rect x="19" y="19" width="${a}" height="${a}" rx="4" fill="none" stroke="${INK}" stroke-width="2"/>` +
     `<text x="${x0}" y="42" class="px" font-size="20" fill="${INK}">PLAYER 1</text>` +
@@ -144,7 +154,7 @@ function inventory({ fonts, icons }) {
   const slots = icons.map((it, i) => {
     const x = 2 + pad + (i % cols) * (sw + gap), y = 2 + pad + Math.floor(i / cols) * (sh + gap), cx = x + sw / 2;
     const s = it.size || 40;
-    return `<rect x="${x}" y="${y}" width="${sw}" height="${sh}" rx="3" fill="#fff" stroke="${INK}" stroke-width="2"/>` +
+    return `<rect x="${x}" y="${y}" width="${sw}" height="${sh}" rx="3" fill="${CARD}" stroke="${INK}" stroke-width="2"/>` +
       `<path d="M${x + sw - 4} ${y + 2}h3v${sh - 3}H${x + 2}v-3h${sw - 6}z" fill="${INK}" opacity=".12"/>` +
       `<rect x="${cx - 20}" y="${y + 12}" width="40" height="40" rx="9" fill="#242938"/>` +
       (it.uri ? `<image href="${it.uri}" x="${cx - s / 2}" y="${y + 32 - s / 2}" width="${s}" height="${s}"/>` : '') +
@@ -161,8 +171,8 @@ function inventory({ fonts, icons }) {
 function warp({ fonts }, { label, handle }) {
   const w = 190, h = 62;
   const body =
-    `<rect x="5" y="5" width="${w}" height="${h}" rx="5" fill="${INK}"/>` +
-    `<rect x="1" y="1" width="${w}" height="${h}" rx="5" fill="#fff" stroke="${INK}" stroke-width="2"/>` +
+    `<rect x="5" y="5" width="${w}" height="${h}" rx="5" fill="${SHADOW}"/>` +
+    `<rect x="1" y="1" width="${w}" height="${h}" rx="5" fill="${CARD}" stroke="${INK}" stroke-width="2"/>` +
     arrowRight(16, 17, INK) +
     `<text x="30" y="28" class="px" font-size="13" fill="${INK}">${esc(label)}</text>` +
     `<text x="16" y="49" class="mono" font-size="11" fill="${MUTED}">${esc(handle)}</text>`;
