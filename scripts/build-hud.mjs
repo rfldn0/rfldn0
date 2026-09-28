@@ -25,7 +25,8 @@ const FONTS = {
   mono: 'https://fonts.gstatic.com/s/robotomono/v31/L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2',
 };
 const CAR = new URL('car.webp', OUT);
-const AVATAR = 'https://github.com/rfldn0.png?size=240';
+// img/hud/avatar.png is the orange avatar character, cropped to head and shoulders at 240px.
+const AVATAR = new URL('avatar.png', OUT);
 const sk = (i) => `https://skillicons.dev/icons?i=${i}`;
 const ITEMS = [
   { name: 'canva', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg', size: 28 },
@@ -189,7 +190,7 @@ function footer({ fonts }) {
 
 const [silk700, mono, car, avatar, ...iconUris] = await Promise.all([
   dataUri(FONTS.silk700, 'font/woff2'), dataUri(FONTS.mono, 'font/woff2'),
-  readFile(CAR).then((b) => `data:image/webp;base64,${b.toString('base64')}`), dataUri(AVATAR, 'image/png'),
+  readFile(CAR).then((b) => `data:image/webp;base64,${b.toString('base64')}`), readFile(AVATAR).then((b) => `data:image/png;base64,${b.toString('base64')}`),
   ...ITEMS.map((it) => (it.src ? dataUri(it.src, 'image/svg+xml') : null)),
 ]);
 const px = { silk700 }, both = { silk700, mono };
