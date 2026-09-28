@@ -8,13 +8,13 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 const OUT = new URL('../img/hud/', import.meta.url);
 const W = 860;
 const INK = '#232323', MUTED = '#5d5b55', FAINT = '#7a776f', GOLD = '#f2c230', SCREEN = '#1d1d1f', PAPER = '#fbf9f3', TAB = '#f7f4ec';
-const SHADOW = '#222222', CARD = '#ffffff', AVATAR_BG = '#f1eee5';
-// Night mode: each light color above is swapped for its night color when the OS is in dark mode.
-// The swap matches on the exact fill/stroke attribute value, so SHADOW is kept distinct from INK
-// (text and borders turn light at night, hard shadows turn dim grey so they still show on a dark page).
+const CARD = '#ffffff', AVATAR_BG = '#f1eee5', ACCENT = '#2f6fd6';
+// Night mode (the "night" theme of the Pixel HUD design): each light color above is swapped for its
+// night color when the OS is in dark mode, by matching the exact fill/stroke attribute value.
+// SCREEN and GOLD stay the same in both themes.
 const NIGHT = {
-  [INK]: '#ecebe4', [SHADOW]: '#4a4841', [MUTED]: '#aeaba1', [FAINT]: '#8f8c83',
-  [PAPER]: '#24231f', [TAB]: '#1e1d1a', [CARD]: '#2c2b27', [AVATAR_BG]: '#35342f', [SCREEN]: '#141415',
+  [INK]: '#e6e1d6', [MUTED]: '#a7a397', [FAINT]: '#8b877d', [ACCENT]: '#6b9cf5',
+  [PAPER]: '#161b22', [TAB]: '#1c2129', [CARD]: '#0f141a', [AVATAR_BG]: '#1c2129',
 };
 const nightCss = `@media (prefers-color-scheme:dark){` +
   Object.entries(NIGHT).map(([l, d]) => `[fill="${l}"]{fill:${d}}[stroke="${l}"]{stroke:${d}}`).join('') + `}`;
@@ -70,7 +70,7 @@ const arrowDown = (x, y, c) => `<path fill="${c}" d="M${x} ${y}h10v2h-2v2h-2v2h-
 // Silkscreen run to a known width so the chip can be sized without font metrics.
 function chip(x, y, text, { fill = PAPER, color = INK, fs = 13, extra = '' } = {}) {
   const tw = Math.round(text.length * fs * 0.82), w = tw + 24, h = fs + 16;
-  return `<rect x="${x + 3}" y="${y + 3}" width="${w}" height="${h}" rx="3" fill="${SHADOW}"/>` +
+  return `<rect x="${x + 3}" y="${y + 3}" width="${w}" height="${h}" rx="3" fill="${INK}"/>` +
     `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="3" fill="${fill}" stroke="${INK}" stroke-width="2"/>` +
     `<text x="${x + 12}" y="${y + h / 2 + fs * 0.42}" class="px ${extra}" font-size="${fs}" fill="${color}" textLength="${tw}" lengthAdjust="spacingAndGlyphs">${esc(text)}</text>`;
 }
@@ -93,7 +93,7 @@ function hero({ fonts, car }) {
     `<rect x="17" y="15" width="10" height="10" fill="${INK}"/>` +
     `<text x="37" y="24" class="mono" font-size="12" font-weight="500" fill="${INK}">rfldn0 / README.md</text>` +
     // card + hard shadow
-    `<rect x="7" y="${cardY + 6}" width="${W - 12}" height="${H - cardY - 10}" rx="6" fill="${SHADOW}"/>` +
+    `<rect x="7" y="${cardY + 6}" width="${W - 12}" height="${H - cardY - 10}" rx="6" fill="${INK}"/>` +
     `<rect x="1" y="${cardY}" width="${W - 12}" height="${H - cardY - 10}" rx="6" fill="${PAPER}" stroke="${INK}" stroke-width="2"/>` +
     // screen
     `<g clip-path="url(#panel)"><rect x="${px}" y="${py}" width="${pw}" height="${panelH}" fill="${SCREEN}"/>` +
@@ -118,7 +118,7 @@ function player({ fonts, avatar }) {
     (value ? `<text x="${vx}" y="${y}" class="mono" font-size="13" fill="${INK}">${esc(value)}</text>` : '');
   const body =
     `<defs><clipPath id="av"><rect x="19" y="19" width="${a}" height="${a}" rx="4"/></clipPath></defs>` +
-    `<rect x="5" y="5" width="${bw}" height="${bh}" rx="6" fill="${SHADOW}"/>` +
+    `<rect x="5" y="5" width="${bw}" height="${bh}" rx="6" fill="${INK}"/>` +
     `<rect x="1" y="1" width="${bw}" height="${bh}" rx="6" fill="${CARD}" stroke="${INK}" stroke-width="2"/>` +
     `<rect x="19" y="19" width="${a}" height="${a}" fill="${AVATAR_BG}"/>` +
     `<image href="${avatar}" x="19" y="19" width="${a}" height="${a}" clip-path="url(#av)" preserveAspectRatio="xMidYMid slice" style="image-rendering:pixelated"/>` +
@@ -129,7 +129,7 @@ function player({ fonts, avatar }) {
     row(84, 'CLASS', 'Pixel art enthusiast, star wars, sci-fi, and builder.') +
     row(110, 'STATUS', 'Plateau, still thinking and expanding, back to basics.') +
     row(136, 'XP') +
-    `<defs><pattern id="xp" width="10" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#2f6fd6"/></pattern></defs>` +
+    `<defs><pattern id="xp" width="10" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="${ACCENT}"/></pattern></defs>` +
     `<rect x="${vx + 1}" y="125" width="198" height="12" fill="none" stroke="${INK}" stroke-width="2"/>` +
     `<rect x="${vx + 4}" y="128" width="${Math.round(192 * 0.64)}" height="6" fill="url(#xp)" class="fill"/>` +
     `<text x="${vx + 214}" y="136" class="mono" font-size="12" fill="${MUTED}">LV 64 · still grinding</text>`;
@@ -171,7 +171,7 @@ function inventory({ fonts, icons }) {
 function warp({ fonts }, { label, handle }) {
   const w = 190, h = 62;
   const body =
-    `<rect x="5" y="5" width="${w}" height="${h}" rx="5" fill="${SHADOW}"/>` +
+    `<rect x="5" y="5" width="${w}" height="${h}" rx="5" fill="${INK}"/>` +
     `<rect x="1" y="1" width="${w}" height="${h}" rx="5" fill="${CARD}" stroke="${INK}" stroke-width="2"/>` +
     arrowRight(16, 17, INK) +
     `<text x="30" y="28" class="px" font-size="13" fill="${INK}">${esc(label)}</text>` +
