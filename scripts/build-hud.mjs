@@ -205,7 +205,7 @@ const files = {
   'inventory.svg': inventory({ fonts: px, icons }),
   'title-warp.svg': title('WARP ZONES', '', px),
   ...Object.fromEntries(WARPS.map((w) => [`warp-${w.id}.svg`, warp({ fonts: both }, w)])),
-  'title-minigame.svg': title('MINIGAME', '3d-city.exe', both),
+  'title-minigame.svg': title('MINIGAME', 'invaders.exe', both),
   'footer.svg': footer({ fonts: px }),
 };
 for (const [name, content] of Object.entries(files)) {
