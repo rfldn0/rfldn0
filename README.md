@@ -9,7 +9,7 @@
 
 <img src="https://komarev.com/ghpvc/?username=rfldn0&style=flat-square&color=2f6fd6&abbreviated=true&label=visits" alt="visits" />
 
-<img src="img/hud/dialogue.svg" width="100%" alt="Old Hermit: &quot;May the force be with you.&quot;" />
+<img src="img/hud/dialogue.svg" width="100%" alt="Yoda: &quot;May the force be with you.&quot;" />
 
 <img src="img/hud/title-inventory.svg" width="100%" alt="Inventory" />
 <img src="img/hud/inventory.svg" width="100%" alt="Canva, HTML5, CSS3, JavaScript, Python, C, Java, Django, Flask" />
